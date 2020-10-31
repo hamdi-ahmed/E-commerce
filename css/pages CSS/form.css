@@ -1,0 +1,56 @@
+:root {
+    --mainColor: #E41B17;
+    --secColor: #FFF;
+    --thirdColor: #7d7d7d;
+    --forthColor: black;
+}
+
+.sp {
+    margin: 5xp;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New;
+    font-weight: 500;
+    color: var(--thirdColor);
+}
+
+.paragraph {
+    font-weight: bold;
+    color: var(--thirdColor);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#errorMessage {
+    margin-bottom: 20px;
+    background-color: var(--mainColor);
+    text-align: center;
+}
+
+.background {
+    background: url(../../img/5.jpg) no-repeat center fixed;
+    min-height: 620px;
+}
+
+.data {
+    background: rgba(9, 9, 9, .7);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: var(--secColor);
+    min-height: 620px;
+}
+
+.form-control {
+    background-color: #9d9d9d;
+    border: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        width: 100%;
+    }
+}

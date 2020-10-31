@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now.</title>
+    <link rel="icon" href="img/id-card-alt-solid.svg">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.12.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="css/pages CSS/form.css" />
+</head>
+
+<body>
+    <div class="background">
+        <div class="container-fluid">
+            <span class="sp" style="color: #9d9d9d;">Online</span>
+            <span class="sp" style="color: #E41B17;">Store</span>
+            <div class="data">
+                <h1 class="text-center">Sign Up</h1>
+                <p class="lead text-center paragraph">Register Now. to recive information about our sales</p>
+                <div id="errorMessage"></div>
+                <form action="login.html" onsubmit="return validation()" novalidate>
+                    <div class="input-group mt-3">
+                        <span class="input-group-prepend"><i class="input-group-text fas fa-user"></i></span>
+                        <input type="text" id="username" name="user" class="form-control" placeholder="enter username" required/>
+                    </div>
+                    <div class="input-group mt-3">
+                        <span class="input-group-prepend"><i class="input-group-text fas fa-lock"></i></span>
+                        <input type="password" name="pass" class="form-control" id="password" placeholder="enter ur password" required />
+                    </div>
+                    <div class="input-group mt-3">
+                        <span class="input-group-prepend"><i class="input-group-text fas fa-envelope"></i></span>
+                        <input type="text" name="e-mail" id="email" class="form-control" placeholder="enter ur email" required/>
+                    </div>
+                    <div class="input-group mt-3">
+                        <span class="input-group-prepend"><i class="input-group-text fas fa-mobile"></i></span>
+                        <input type="text" name="phone" id="phoneNumber" class="form-control" placeholder="enter ur phone number" required />
+                    </div>
+                    <div class="input-group mt-3">
+                        <input style="height: 25px;" type="checkbox" class="ml-2" />
+                        <span class="ml-2">I agree to the terms and conditions</span>
+                    </div>
+                    <div class="text-center">
+                        <input type="submit" value="Create New Account" class="btn btn-danger  mt-3" id="submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/JQuery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jsPage/form.js"></script>
+</body>
+
+</html>

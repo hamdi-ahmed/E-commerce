@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../../fonts/);
+}
+
+:root {
+    --mainColor: #E41B17;
+    --secColor: #FFF;
+    --thirdColor: #7d7d7d;
+    --forthColor: black;
+}
+
+.sp {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.log-in {
+    background: url(../../img/4.jpg) no-repeat fixed center;
+    height: 630px;
+    background-size: cover;
+}
+
+.data {
+    background: rgba(9, 9, 9, .7);
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: var(--secColor);
+    max-height: 700px;
+}
+
+@media only screen and(max-width:600px) {
+    .log-in {
+        width: 100%;
+    }
+    .data {
+        width: 100%;
+    }
+    .log-in .data .log-in-form #btn {
+        width: 100%;
+    }
+}
+
+.log-in-form {
+    width: 380px;
+    height: 500px;
+    margin: auto;
+    background-color: rgba(9, 9, 9, .6);
+}
+
+.span1 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 150px;
+}
+
+.log-in .data .log-in-form .form-control {
+    background-color: #5d5d5d;
+    border: 2px solid var(--mainColor);
+    color: var(--secColor);
+    width: 80%;
+    margin: auto;
+}
+
+.log-in .data .log-in-form .href1 {
+    margin-left: 165px;
+    color: var(--thirdColor);
+}
+
+.log-in .data .log-in-form .href1:hover {
+    color: var(--secColor);
+}
+
+
+/* .eM {
+    padding: 10px;
+    background-color: var(--mainColor);
+    margin: 10px 0px;
+} */
+
+
+/* .errorMessage {
+    margin-bottom: 20px;
+    background-color: var(--mainColor);
+    text-align: center;
+    padding: 10px;
+    transition: 2s ease-in;
+} */
